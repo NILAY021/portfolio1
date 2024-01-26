@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 # Copy HTML, CSS, and JS files into the container
 COPY index.html .
 COPY style.css .
-
+COPY images/ /usr/src/app/images/
 
 # Expose port 80 for HTTP server
 EXPOSE 80
